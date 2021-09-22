@@ -54,7 +54,7 @@ class ProductsController
             formData.append('imagefile', imageObject);
 
            // fetch('http://localhost:8080/item/add', {
-           fetch('https://tywebproject.herokuapp.com/item/all') {
+           fetch('https://tywebproject.herokuapp.com/item/add', {
                  method: 'POST',
                  body: formData
                  })
